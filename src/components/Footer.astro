@@ -3,11 +3,18 @@
 const year = new Date().getFullYear();
 ---
 
-<footer class="py-8 text-center border-t border-slate-100 mt-auto bg-slate-50">
-    <p class="text-xs text-slate-400 mb-1">
-        Divisi Operasional & Administrasi
-    </p>
-    <p class="text-[10px] text-slate-300">
-        &copy; {year} Internal Use Only
-    </p>
+<footer class="w-full mt-auto bg-white border-t border-[var(--color-border-subtle)]">
+    <div class="w-full px-6 py-8 flex flex-col items-center justify-center text-center">
+        
+        <div class="w-8 h-1 bg-[var(--color-primary)] rounded-full mb-2 opacity-80"></div>
+
+        <p class="text-sm font-semibold text-[var(--color-text-main)] uppercase tracking-wide mb-1">
+            Divisi Operasional Umum dan Administrasi
+        </p>
+
+        <p class="text-xs text-[var(--color-text-muted)] font-light">
+            &copy; 2026. Developed by Bidang Sistem Informasi BPH
+        </p>
+        
+    </div>
 </footer>

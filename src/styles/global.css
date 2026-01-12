@@ -1,1 +1,38 @@
 @import "tailwindcss";
+
+:root {
+  /* --- PALET BRAND (Sesuai Instruksi) --- */
+  
+  /* MERAH: Identitas Utama */
+  --color-primary: #E4252C;       /* Main Red */
+  --color-primary-light: #EF3F3C; /* Brighter Red (Focus/Accent) */
+  --color-primary-dark: #8F1924;  /* Darker Red (Hover) */
+  --color-primary-deep: #6C0C1C;  /* Deep Red (Active/Borders) */
+
+  /* NETRAL: Teks & Struktur */
+  --color-text-main: #010101;     /* Black (Headings) */
+  --color-text-muted: #737272;    /* Dark Gray (Subtitles/Meta) */
+  
+  /* BORDER & LINES */
+  --color-border-strong: #BCBCBC; /* Ikon unselected / Garis tegas */
+  --color-border-subtle: #DCDBDB; /* Garis halus / Background section */
+
+  /* BACKGROUND */
+  --color-bg-page: #FDFDFD;       /* Hampir putih (agar mata nyaman) */
+  --color-bg-surface: #FFFFFF;    /* Kartu putih bersih */
+}
+
+/* Penerapan Global */
+body {
+  background-color: var(--color-bg-page);
+  color: var(--color-text-main);
+  /* Font smoothing agar teks hitam terlihat tajam */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Utility tambahan untuk Focus Ring (Aksesibilitas) bernuansa Merah */
+*:focus-visible {
+  outline: 2px solid var(--color-primary-light);
+  outline-offset: 2px;
+}
