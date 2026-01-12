@@ -1,7 +1,7 @@
 [
   {
     "category": "Administrasi",
-    "icon": "mdi:account-group",
+    "icon": "mdi:email-multiple",
     "items": [
       {
         "title": "Rekap Surat Masuk",
@@ -16,6 +16,12 @@
         "keywords": ["surat", "keluar", "rekap"]
       },
       {
+        "title": "Arsip Surat Masuk",
+        "url": "https://drive.google.com/drive/folders/1DGxzComTfSvAlMs5IoxOPV3PcK6jemAs?usp=sharing",
+        "type": "drive",
+        "keywords": ["arsip", "surat", "masuk"]
+      },
+      {
         "title": "Arsip Surat Keluar",
         "url": "https://drive.google.com/drive/folders/1DGxzComTfSvAlMs5IoxOPV3PcK6jemAs?usp=sharing",
         "type": "drive",
@@ -24,38 +30,56 @@
     ]
   },
   {
-    "category": "Inventaris & Aset",
-    "icon": "mdi:package-variant-closed",
+    "category": "Dokumen",
+    "icon": "mdi:folder-google-drive",
     "items": [
       {
-        "title": "Master Data Aset Kantor",
-        "url": "https://docs.google.com/spreadsheets/example",
-        "type": "sheet",
-        "keywords": ["laptop", "komputer", "meja", "kursi", "stok"]
+        "title": "Arsip Umum",
+        "url": "#e",
+        "type": "drive",
+        "keywords": ["arsip", "umum"]
       },
       {
-        "title": "Form Peminjaman Barang",
-        "url": "https://docs.google.com/document/example",
-        "type": "doc",
-        "keywords": ["pinjam", "sewa", "kembali"]
+        "title": "Notulensi & Dokumentasi Kegiatan",
+        "url": "#",
+        "type": "drive",
+        "keywords": ["notulensi", "dokumentasi", "kegiatan"]
+      },
+      {
+        "title": "SOP Izin Tidak Masuk Kantor",
+        "url": "#",
+        "type": "pdf",
+        "keywords": ["sop", "izin", "kantor"]
       }
     ]
   },
   {
-    "category": "Arsip & Dokumen",
-    "icon": "mdi:folder-google-drive",
+    "category": "Laporan",
+    "icon": "mdi:file-report",
     "items": [
       {
-        "title": "Repository Surat Masuk 2025",
-        "url": "https://drive.google.com/drive/folders/example",
-        "type": "drive",
-        "keywords": ["surat", "dokumen", "archive"]
+        "title": "Laporan Mingguan",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSc0Nrtqt6dD77k80E8Z8Nm38z-nI5pcUAPHeRy7iSS4b0WoyA/viewform",
+        "type": "form",
+        "keywords": ["laporan", "mingguan"]
       },
       {
-        "title": "Template Surat Tugas",
-        "url": "https://docs.google.com/document/example",
-        "type": "doc",
-        "keywords": ["format", "contoh surat", "perjalanan dinas"]
+        "title": "Rekap Kegiatan BPH",
+        "url": "#",
+        "type": "drive",
+        "keywords": ["rekap", "kegiatan", "bph"]
+      }
+    ]
+  },
+  {
+    "category": "Data Unit",
+    "icon": "mdi:database-search",
+    "items": [
+      {
+        "title": "Data SDM",
+        "url": "https://sdm.perpenas-banyuwangi.or.id",
+        "type": "link",
+        "keywords": ["data", "sdm"]
       }
     ]
   }
