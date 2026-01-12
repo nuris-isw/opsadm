@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Administrasi",
+    "icon": "mdi:account-group",
+    "items": [
+      {
+        "title": "Rekap Surat Masuk",
+        "url": "https://docs.google.com/spreadsheets/d/1mFcoKWv8qXMxyTNQWgNwFgd6Jq93DAzC/edit?usp=sharing&ouid=113256268021475925194&rtpof=true&sd=true",
+        "type": "sheet",
+        "keywords": ["surat", "masuk", "rekap"]
+      },
+      {
+        "title": "Rekap Surat Keluar",
+        "url": "https://docs.google.com/spreadsheets/d/1loX8E5-eRwRW2lt6Dzu3TBuvHkqjKhTI/edit?usp=sharing&ouid=113256268021475925194&rtpof=true&sd=true",
+        "type": "sheet",
+        "keywords": ["surat", "keluar", "rekap"]
+      },
+      {
+        "title": "Arsip Surat Keluar",
+        "url": "https://drive.google.com/drive/folders/1DGxzComTfSvAlMs5IoxOPV3PcK6jemAs?usp=sharing",
+        "type": "drive",
+        "keywords": ["arsip", "surat", "keluar"]
+      }
+    ]
+  },
+  {
+    "category": "Inventaris & Aset",
+    "icon": "mdi:package-variant-closed",
+    "items": [
+      {
+        "title": "Master Data Aset Kantor",
+        "url": "https://docs.google.com/spreadsheets/example",
+        "type": "sheet",
+        "keywords": ["laptop", "komputer", "meja", "kursi", "stok"]
+      },
+      {
+        "title": "Form Peminjaman Barang",
+        "url": "https://docs.google.com/document/example",
+        "type": "doc",
+        "keywords": ["pinjam", "sewa", "kembali"]
+      }
+    ]
+  },
+  {
+    "category": "Arsip & Dokumen",
+    "icon": "mdi:folder-google-drive",
+    "items": [
+      {
+        "title": "Repository Surat Masuk 2025",
+        "url": "https://drive.google.com/drive/folders/example",
+        "type": "drive",
+        "keywords": ["surat", "dokumen", "archive"]
+      },
+      {
+        "title": "Template Surat Tugas",
+        "url": "https://docs.google.com/document/example",
+        "type": "doc",
+        "keywords": ["format", "contoh surat", "perjalanan dinas"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+---
+// src/layouts/MainLayout.astro
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+import "../styles/global.css"
+---
+
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Landing Page Divisi Operasional & Administrasi" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <title>{title}</title>
+  </head>
+  <body class="bg-slate-50 font-['Inter'] text-slate-800 min-h-screen flex flex-col">
+    
+    <main class="w-full flex-grow">
+      <div class="max-w-7xl mx-auto min-h-screen bg-slate-50 md:bg-transparent relative">
+        <slot />
+      </div>
+    </main>
+    
+  </body>
+</html>

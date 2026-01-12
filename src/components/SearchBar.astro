@@ -1,0 +1,28 @@
+---
+// src/components/SearchBar.astro
+import { Icon } from 'astro-icon/components';
+---
+
+<div class="sticky top-0 z-30 bg-white/90 backdrop-blur-md px-6 py-4 border-b border-slate-200 md:static md:bg-transparent md:border-none md:p-0 md:mb-10">
+    <div class="relative group max-w-2xl mx-auto shadow-sm md:shadow-lg rounded-xl">
+        <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+            <Icon name="mdi:magnify" class="w-5 h-5 text-slate-400 group-focus-within:text-blue-500 transition-colors" />
+        </div>
+        
+        <input 
+            type="text" 
+            x-model="search"
+            class="block w-full pl-11 pr-4 py-3.5 bg-slate-50 md:bg-white border border-slate-200 md:border-slate-200/60 rounded-xl text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500 transition-all text-sm md:text-base" 
+            placeholder="Ketik untuk mencari dokumen..."
+        />
+        
+        <button 
+            x-show="search.length > 0"
+            @click="search = ''"
+            class="absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-slate-600 cursor-pointer"
+            x-transition
+        >
+            <Icon name="mdi:close-circle" class="w-5 h-5" />
+        </button>
+    </div>
+</div>
