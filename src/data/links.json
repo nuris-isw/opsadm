@@ -46,10 +46,10 @@
         "keywords": ["arsip", "umum"]
       },
       {
-        "title": "Notulensi & Dokumentasi Kegiatan",
-        "url": "#",
-        "type": "drive",
-        "keywords": ["notulensi", "dokumentasi", "kegiatan"]
+        "title": "Notulensi & Dokumentasi Rapat",
+        "url": "https://drive.google.com/drive/folders/11zFm4qNqwosZkd1l-8Y2kzpPshmi0IPP?usp=drive_link",
+        "type": "pdf",
+        "keywords": ["notulensi", "dokumentasi", "rapat"]
       },
       {
         "title": "SOP Izin Tidak Masuk Kantor",
