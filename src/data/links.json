@@ -92,6 +92,12 @@
         "url": "https://sdm.perpenas-banyuwangi.or.id",
         "type": "link",
         "keywords": ["data", "sdm"]
+      },
+      {
+        "title": "Rekap Data Unit ",
+        "url": "https://drive.google.com/drive/folders/1L-1wiD19Jj14PZzNNFTjQPbYyRFfBs3K?usp=sharing",
+        "type": "drive",
+        "keywords": ["rekap", "data", "unit"]
       }
     ]
   }
