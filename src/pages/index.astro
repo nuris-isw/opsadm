@@ -1,5 +1,9 @@
 ---
 // src/pages/index.astro
+
+// --- SETUP SSR (Agar web update real-time) ---
+export const prerender = false;
+
 import MainLayout from '../layouts/MainLayout.astro';
 import Header from '../components/Header.astro';
 import SearchBar from '../components/SearchBar.astro';
@@ -9,7 +13,13 @@ import { Icon } from 'astro-icon/components'; // Kita butuh ini untuk ikon di pe
 import "../styles/global.css";
 
 // Import Data
-import links from '../data/links.json';
+// import links from '../data/links.json';
+// Ganti dengan Import Fungsi Sheet
+import { getLinksFromSheet } from '../lib/sheet.js';
+
+// Ambil data dari Google Sheet saat halaman dibuka
+const links = await getLinksFromSheet();
+// ------------------------
 ---
 
 <MainLayout title="Portal OA | BPH">

@@ -5,6 +5,8 @@ import alpinejs from '@astrojs/alpinejs'
 import icon from 'astro-icon'
 import tailwindcss from '@tailwindcss/vite'
 
+import node from '@astrojs/node';
+
 export default defineConfig({
   integrations: [
     alpinejs(),
@@ -16,4 +18,8 @@ export default defineConfig({
       tailwindcss(),
     ],
   },
+
+  adapter: node({
+    mode: 'standalone',
+  }),
 })
